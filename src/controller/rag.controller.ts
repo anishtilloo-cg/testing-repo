@@ -9,7 +9,7 @@ const ragService = new RagService();
 /**
  * Initialize the RAG pipeline with a PDF document
  */
-export const initializePipeline = async (
+export const InitializePipeline = async (
     req: Request,
     res: Response,
     next: NextFunction
